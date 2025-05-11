@@ -1,10 +1,10 @@
 # Python Voice Agent + Optional Inbound Calls with Twilio
 
 A basic example of a voice agent using LiveKit and Python. Has a few extras to get started:
-- Turn detection
+- transfer_call
 - Function calling
-  - Get weather
-  - Get current time
+  - transfer_call
+  - create_help_request_assitance
 - Summary usage logging
 - Optional inbound calls with Twilio
 - Krisp noise cancellation
@@ -60,7 +60,7 @@ lk app env
 Run the agent:
 
 ```console
-python3 agent.py dev
+python3 transfer_agent.py dev
 ```
 
 This agent requires a frontend application to communicate with. You can use one this example frontend in [livekit-nextjs-voice-agent-interface](https://github.com/kylecampbell/livekit-nextjs-voice-agent-interface)
