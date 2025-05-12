@@ -51,6 +51,8 @@ Set up the environment by copying `.env.example` to `.env.local` and filling in 
 - `GOOGLE_API_KEY`
 - `CARTESIA_API_KEY`
 
+- `HELPREQUEST_BACKEND_URL=<your-nextjs-app.com/api/create-help-request>`
+
 You can also do this automatically using the LiveKit CLI:
 
 ```console
