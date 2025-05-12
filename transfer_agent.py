@@ -145,7 +145,7 @@ class WarmHandoffAgent(Agent):
             await self.session.say("I'm sorry, I'm missing some context to create the assistance request.")
             return {"status": "failure", "reason": "Job context or room info missing."}
 
-        call_id = self.job_context.room.sid
+        call_id = await self.job_context.room.sid
         
         caller_id_to_use = f"unknown_caller_in_room_{call_id}" 
         participant_name_for_log = "Unknown Participant"
