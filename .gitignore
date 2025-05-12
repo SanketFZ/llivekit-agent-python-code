@@ -132,4 +132,4 @@ docs/
 #Virtual environment
 .venv
 
-agent.py
+.agent.py
