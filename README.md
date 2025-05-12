@@ -51,7 +51,9 @@ Set up the environment by copying `.env.example` to `.env.local` and filling in 
 - `GOOGLE_API_KEY`
 - `CARTESIA_API_KEY`
 
-- `HELPREQUEST_BACKEND_URL=<your-nextjs-app.com/api/create-help-request>`
+When you deploy your Next.js app, this Route Handler will be available at the URL your-nextjs-app.com/api/create-help-request.
+This is the URL you would set in your Python agent's HELPREQUEST_BACKEND_URL environment variable.
+- `HELPREQUEST_BACKEND_URL`
 
 You can also do this automatically using the LiveKit CLI:
 
