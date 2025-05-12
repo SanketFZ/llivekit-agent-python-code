@@ -24,7 +24,7 @@ cd livekit-voice-agent-python
 python3 -m venv myenv
 source myenv/bin/activate
 pip install -r requirements.txt
-python3 agent.py download-files
+python3 transfer_agent.py download-files
 ```
 
 <details>
